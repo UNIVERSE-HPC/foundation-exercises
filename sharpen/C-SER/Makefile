@@ -1,12 +1,12 @@
-MF=	Makefile
+MF= Makefile
 
 #COMPILER
-CC=	icc
+CC= cc
 
 CFLAGS=	-O3 -DC_SERIAL_PRACTICAL
 LFLAGS=	-lm
 
-EXE=	sharpen
+EXE=    sharpen
 
 SRC= \
 	sharpen.c \
