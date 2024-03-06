@@ -1,7 +1,7 @@
 MF=	Makefile
 
 #COMPILER
-CC=	icc
+CC=	cc
 
 CFLAGS=	-O3 -fopenmp -DC_OPENMP_PRACTICAL
 LFLAGS=	-lm

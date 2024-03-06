@@ -1,7 +1,7 @@
 MF=	Makefile
 
 #COMPILER
-CC=	mpicc -cc=icc
+CC=	mpicc -cc=cc
 
 CFLAGS=	-O3 -DC_MPI_PRACTICAL
 LFLAGS=	-lm

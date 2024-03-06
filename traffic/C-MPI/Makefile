@@ -1,7 +1,7 @@
 MF=	Makefile
 
 CC=    mpicc
-CFLAGS= -cc=icc -g
+CFLAGS= -cc=cc -g
 LFLAGS=	$(CFLAGS) -lm
 
 EXE=	traffic

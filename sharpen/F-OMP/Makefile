@@ -1,8 +1,8 @@
 MF=	Makefile
 
 #COMPILER
-FC=	ifort #gfortran 
-CC=	icc #gcc
+FC=	ftn #fortran 
+CC=	cc #c
 
 FFLAGS=	-O3 -fopenmp -DF_OPENMP_PRACTICAL
 CFLAGS= $(FFLAGS)

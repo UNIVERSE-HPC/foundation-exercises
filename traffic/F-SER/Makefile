@@ -1,6 +1,6 @@
 MF=	Makefile
 
-FC=	ifort
+FC=	ftn
 
 FFLAGS=	-g
 LFLAGS=	$(FFLAGS)

@@ -1,6 +1,6 @@
 MF=	Makefile
 
-CC=	icc
+CC=	cc
 
 CFLAGS=	-g -fopenmp
 LFLAGS=	$(CFLAGS) -lm

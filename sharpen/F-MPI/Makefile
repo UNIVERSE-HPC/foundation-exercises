@@ -2,7 +2,7 @@ MF=	Makefile
 
 #COMPILER
 FC=	mpif90 
-CC=	mpicc -cc=icc
+CC=	mpicc -cc=cc
 
 FFLAGS=	-O3 -DF_MPI_PRACTICAL
 CFLAGS= $(FFLAGS)

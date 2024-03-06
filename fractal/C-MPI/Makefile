@@ -1,7 +1,7 @@
 MF=	Makefile
 
 CC=   mpicc
-CFLAGS= -cc=icc -O3
+CFLAGS= -cc=cc -O3
 LFLAGS= -lm
 
 EXE=	fractal

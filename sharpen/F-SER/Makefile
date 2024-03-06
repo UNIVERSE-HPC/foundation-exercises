@@ -1,8 +1,8 @@
 MF=	Makefile
 
 #COMPILER
-FC=	ifort 
-CC= 	icc
+FC=	ftn
+CC= cc
 FFLAGS=	-O3 -DF_SERIAL_PRACTICAL
 CFLAGS= $(FFLAGS)
 LFLAGS=
