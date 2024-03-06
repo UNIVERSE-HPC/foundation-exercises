@@ -1,0 +1,9 @@
+To run a Python script on Cirrus:
+
+1) load a relevant Anaconda module (i.e. anaconda/python2 for Python2 and anaconda/python3 for Python3)
+
+	module load anaconda/python3
+
+2) run the code
+
+	python traffic.py 
